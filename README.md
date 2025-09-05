@@ -14,15 +14,9 @@ Instead of limiting the work to a few random queries, the project has been struc
 
 **Source:** Zepto product dataset (fields related to price, stock, discount, and category).
 
-* **Full Dataset:** `data/zepto.csv`
+* **Full Dataset:** 
 
-  * Contains the complete data used for all queries and analysis.
-  * Due to GitHub’s file size limits, large CSVs cannot be previewed directly. To access, click **“View raw”** to download.
-
-* **Sample Dataset:** `data/zepto_sample.csv`
-
-  * A smaller version of the dataset (\~1,000 rows).
-  * Added for quick preview on GitHub without downloading.
+  * Contains the complete data used (3000+ rows) for all queries and analysis.
 
 ### Fields Included:
 
@@ -37,20 +31,6 @@ Instead of limiting the work to a few random queries, the project has been struc
 * `out_of_stock` – stock availability status (TRUE/FALSE)
 * `quantity` – historical purchase quantity
 * `discount_amount` (derived) – price gap between MRP and discounted selling price
-
----
-
-## Project Structure
-
-```
-zepto-sql-project/
-│── README.md              # Project documentation (this file)
-│── queries.sql            # All SQL queries used in this project
-│── data/
-│   ├── zepto.csv          # Full dataset
-│   └── zepto_sample.csv   # Sample dataset
-│── schema.sql             # PostgreSQL schema (table definition)
-```
 
 ---
 
